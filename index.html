@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de desarrollo de software de Cristian David. Proyectos web, tecnologías y contacto.">
+    <title>Cristian David | Desarrollador de Software</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+
+    <header class="encabezado">
+        <a href="#inicio" class="logo">CD<span>.</span></a>
+
+        <nav class="navegacion" id="navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button class="menu-btn" id="menu-btn"
+                aria-label="Abrir menú" aria-expanded="false"
+                aria-controls="navegacion">☰</button>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-contenido">
+                <p class="etiqueta">PORTAFOLIO DE DESARROLLO DE SOFTWARE</p>
+
+                <h1>Hola, soy <span>Cristian David.</span></h1>
+
+                <h2>Construyo experiencias para la web.</h2>
+
+                <p class="descripcion">
+                    Soy estudiante de Análisis y Desarrollo de Software.
+                    Me interesa crear sitios web funcionales, aprender nuevas
+                    tecnologías y convertir ideas en proyectos reales.
+                </p>
+
+                <div class="hero-botones">
+                    <a href="#proyectos" class="btn btn-principal">
+                        Ver mis proyectos ↗
+                    </a>
+
+                    <a href="#contacto" class="btn btn-secundario">
+                        Contactarme
+                    </a>
+                </div>
+
+                <div class="disponibilidad">
+                    <span class="punto"></span>
+                    En constante aprendizaje y desarrollo
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="tarjeta-codigo">
+                    <div class="ventana">
+                        <span></span><span></span><span></span>
+                    </div>
+
+                    <pre><code><span class="codigo-morado">const</span> desarrollador = {
+  nombre: <span class="codigo-verde">"Cristian"</span>,
+  enfoque: <span class="codigo-verde">"Desarrollo web"</span>,
+  aprendizaje: [
+    <span class="codigo-verde">"HTML"</span>,
+    <span class="codigo-verde">"CSS"</span>,
+    <span class="codigo-verde">"JavaScript"</span>
+  ],
+  construir: <span class="codigo-azul">() =></span> {
+    <span class="codigo-morado">return</span> <span class="codigo-verde">"Nuevas ideas"</span>;
+  }
+};</code></pre>
+                </div>
+
+                <div class="decoracion decoracion-uno"></div>
+                <div class="decoracion decoracion-dos"></div>
+            </div>
+        </section>
+
+        <section class="seccion sobre-mi" id="sobre-mi">
+            <div class="titulo-seccion">
+                <p class="etiqueta">CONÓCEME</p>
+                <h2>Sobre <span>mí</span></h2>
+            </div>
+
+            <div class="sobre-mi-contenido">
+                <div>
+                    <h3>Aprender, construir y mejorar.</h3>
+                </div>
+
+                <div>
+                    <p>
+                        Estoy formándome en Análisis y Desarrollo de Software
+                        y construyendo proyectos para fortalecer mis
+                        conocimientos en programación.
+                    </p>
+                    <p>
+                        Mi objetivo es mejorar cada día, desarrollar soluciones
+                        útiles y crecer profesionalmente en el sector tecnológico.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion" id="habilidades">
+            <div class="titulo-seccion">
+                <p class="etiqueta">TECNOLOGÍAS</p>
+                <h2>Mis <span>habilidades</span></h2>
+                <p class="texto-seccion">
+                    Tecnologías que estoy aprendiendo y utilizando en mis proyectos.
+                </p>
+            </div>
+
+            <div class="habilidades-grid">
+                <article class="habilidad">
+                    <span class="habilidad-icono">5</span>
+                    <h3>HTML</h3>
+                    <p>Estructura de páginas web.</p>
+                </article>
+
+                <article class="habilidad">
+                    <span class="habilidad-icono">✳</span>
+                    <h3>CSS</h3>
+                    <p>Estilos, diseños y adaptación a pantallas.</p>
+                </article>
+
+                <article class="habilidad">
+                    <span class="habilidad-icono">JS</span>
+                    <h3>JavaScript</h3>
+                    <p>Interactividad y lógica de programación.</p>
+                </article>
+
+                <article class="habilidad">
+                    <span class="habilidad-icono">⌘</span>
+                    <h3>Git y GitHub</h3>
+                    <p>Control de versiones y publicación de proyectos.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion proyectos" id="proyectos">
+            <div class="titulo-seccion">
+                <p class="etiqueta">TRABAJO REAL</p>
+                <h2>Mis <span>proyectos</span></h2>
+                <p class="texto-seccion">
+                    Proyectos personales para practicar y demostrar mis conocimientos.
+                </p>
+            </div>
+
+            <div class="proyectos-grid">
+                <article class="proyecto-card">
+                    <div class="proyecto-imagen tienda-imagen">
+                        <span>01 / E-COMMERCE</span>
+                        <div class="mini-tienda">CEVERI<span>SHOP</span></div>
+                    </div>
+
+                    <div class="proyecto-info">
+                        <p class="proyecto-tipo">TIENDA ONLINE</p>
+                        <h3>CeveriShop</h3>
+                        <p>
+                            Proyecto de comercio electrónico para presentar
+                            productos y practicar el desarrollo de interfaces web.
+                        </p>
+
+                        <div class="tecnologias">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://github.com/ceveriche-dev"
+                           target="_blank" rel="noopener noreferrer"
+                           class="enlace-proyecto">
+                            Ver en GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="proyecto-card">
+                    <div class="proyecto-imagen comida-imagen">
+                        <span>02 / FOOD</span>
+                        <div class="mini-comida">SABOR <span>LOCAL.</span></div>
+                    </div>
+
+                    <div class="proyecto-info">
+                        <p class="proyecto-tipo">GESTIÓN DE PEDIDOS</p>
+                        <h3>Comida Rápida</h3>
+                        <p>
+                            Proyecto para practicar interfaces, productos,
+                            carrito de compras y lógica de pedidos.
+                        </p>
+
+                        <div class="tecnologias">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://github.com/ceveriche-dev"
+                           target="_blank" rel="noopener noreferrer"
+                           class="enlace-proyecto">
+                            Ver en GitHub ↗
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <p class="etiqueta">HABLEMOS</p>
+            <h2>¿Construimos algo <span>interesante?</span></h2>
+            <p>
+                Estoy interesado en aprender, colaborar y seguir creciendo
+                en el mundo del desarrollo de software.
+            </p>
+
+            <a href="https://github.com/ceveriche-dev"
+               target="_blank" rel="noopener noreferrer"
+               class="btn btn-principal">
+                Visitar mi GitHub ↗
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#inicio" class="logo">CD<span>.</span></a>
+        <p>Diseñado y desarrollado por Cristian David.</p>
+        <p>© <span id="anio"></span> · Todos los derechos reservados.</p>
+    </footer>
+
+     <script src="script.js" defer></script>
+
+</body>
+</html>
